@@ -52,7 +52,7 @@ body {
   text-transform: uppercase;
 }
 
-.logo span {
+.logo-span {
   color: var(--dark-color);
 }
 .header-menu {
@@ -163,10 +163,11 @@ body {
     background-color:var(--light-color);
 }
 .team-list {
-    background-color: var(--white-color);
+    
 }
 
 .team-item {
+    background-color: var(--white-color);
 }
 .team-img {
 }
@@ -200,12 +201,14 @@ body {
 }
 .porfolio-button {
   color: var(--primary-brand-color);
-  background-color: var(--accent-color);
+  background-color: var(--light-color);
   border: 1px solid #e7e9fc;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 .porfolio-button:focus, .porfolio-button:hover {
     color: var(--white-color);
