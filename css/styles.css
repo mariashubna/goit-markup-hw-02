@@ -11,10 +11,10 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
+  background-color: var(--white-color);
 }
 .link {
   text-decoration: none;
-  font-style: normal;
 }
 
 .list {
@@ -28,6 +28,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
+  text-align: center;
 }
 .section-subtitle {
   font-weight: 500;
@@ -42,8 +43,8 @@ body {
   letter-spacing: 0.02em;
 }
 .logo {
-  color: var(--dark-color);
-  font-family: "Raleway";
+  color: var(--primary-brand-color);
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -52,7 +53,7 @@ body {
 }
 
 .logo span {
-  color: var(--primary-brand-color);
+  color: var(--dark-color);
 }
 .header-menu {
 }
@@ -73,6 +74,7 @@ body {
 }
 
 .header-address {
+    font-style: normal 
 }
 
 .header-list {
@@ -100,6 +102,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white-color);
+  text-align: center;
 }
 
 .hero-button {
@@ -109,9 +112,9 @@ body {
   letter-spacing: 0.04em;
   background-color: var(--primary-brand-color);
   color: var(--white-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   border: none;
+  font-family: inherit;
+  cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -138,6 +141,7 @@ body {
 .work {
 }
 .work-title {
+
 }
 .work-list {
 }
@@ -155,6 +159,13 @@ body {
 }
 .list {
 }
+.team {
+    background-color:var(--light-color);
+}
+.team-list {
+    background-color: var(--white-color);
+}
+
 .team-item {
 }
 .team-img {
@@ -187,21 +198,18 @@ body {
 }
 .porfolio-item {
 }
-.porfolio-link {
+.porfolio-button {
   color: var(--primary-brand-color);
   background-color: var(--accent-color);
   border: 1px solid #e7e9fc;
-  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.porfolio-link:focus, .porfolio-link:hover {
+.porfolio-button:focus, .porfolio-button:hover {
     color: var(--white-color);
     background-color: var(--pressed-state-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
 }
 
 .link {
