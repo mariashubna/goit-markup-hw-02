@@ -55,6 +55,9 @@ body {
 .logo-span {
   color: var(--dark-color);
 }
+.footer-logo-span {
+    color: var(--light-color);
+}
 .header-menu {
 }
 
@@ -226,4 +229,5 @@ body {
 .porfolio-list-subtitle {
 }
 .porfolio-list-text {
+    color: var(--text-color);
 }
